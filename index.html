@@ -3,33 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>vivek's resume</title>
+    <title>Vivek's Resume</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        h2 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.2em;
+        }
+
+        p, li {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header and Image */
+        table {
+            width: 100%;
+            max-width: 1000px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        td {
+            vertical-align: top;
+        }
+
+        img {
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Navigation Links */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        ul li a {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+
+        /* Table Styling */
+        table, th, td {
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+        }
+
+        td {
+            background-color: #ecf0f1;
+        }
+
+        /* Internships and Projects */
+        h3 {
+            color: #e67e22;
+        }
+
+        ul {
+            margin-top: 10px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        #connect {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 20px;
+        }
+
+        #connect a {
+            color: #ecf0f1;
+        }
+
+        #connect a:hover {
+            color: #3498db;
+        }
+    </style>
 </head>
 <body>
   <table>
   <tr>
-    <td><img style="float:left;" width="300"  src="resumepic.JPG" alt="Vivek's Pic"></td>
+    <td><img style="float:left;" width="200" src="resumepic.JPG" alt="Vivek's Pic"></td>
     <td>
       <h1>Vivek Pant</h1>
-    <p><i>Founder of nothing & ex- software engineer at _______</i></p>
-    <p>I ❤️ web developement and here to guide the Coding Enthusiasts 🚀</p>
-  <ul><li><a href="#connect with vivek">Connect With Me</a></li> </ul>
-  <ul><li><a href="#Edu">Education</a></li> </ul>
-  <ul><li><a href="#int">Internships</a></li> </ul>
-  <ul><li><a href="#pro">Projects</a></li> </ul></td>
+      <p><i>Founder of nothing & ex- software engineer at _______</i></p>
+      <p>I ❤️ web development and here to guide the Coding Enthusiasts 🚀</p>
+      <ul>
+        <li><a href="#connect-with-vivek">Connect With Me</a></li>
+        <li><a href="#Edu">Education</a></li>
+        <li><a href="#int">Internships</a></li>
+        <li><a href="#pro">Projects</a></li>
+      </ul>
+    </td>
   </tr>
   </table>
     
   <hr>
-  <!-- header ends -->
+  <!-- Header ends -->
    <h2 id="Edu">Education</h2>
-   <table border="">
-    <TR>
-      <TH>COUSRE</TH>
-      <TH>INSTITUTE</TH>
-      <TH>YEAR</TH>
-      <TH>RESULTS</TH>
-    </TR>
+   <table border="1" width="100%">
+    <tr>
+      <th>COURSE</th>
+      <th>INSTITUTE</th>
+      <th>YEAR</th>
+      <th>RESULTS</th>
+    </tr>
     <tr>
       <td>B.Sc [PCM]</td>
       <td>RHGPG College</td>
@@ -44,7 +167,7 @@
     </tr>
    </table>
    <h2 id="int">Internships</h2>
-   <p><strong> Chilly Gaming an online Sports Organiser</p>
+   <p><strong>Chilly Gaming - an online Sports Organiser</strong></p>
    <p><i>Android Developer Intern</i></p>
    <ul>
     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, nulla? Dolorem, molestias? Sunt laudantium facilis dolorem quis, reprehenderit repudiandae provident temporibus deleniti. Corrupti molestiae explicabo odit aliquam provident ipsam quisquam!</li>
@@ -53,17 +176,19 @@
 
    <h2 id="pro">Projects</h2>
    <ul>
-    <li><h3>Ethreum Voting</h3>
+    <li><h3>Ethereum Voting</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum tempore delectus repellendus voluptatem consequatur qui fugiat laborum sit aperiam ipsa?</p></li>
-    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos quo ad corrupti facilis vel laudantium quisquam velit enim odit iure praesentium laboriosam illum, sint minus iusto doloremque dicta quaerat maiores.</li>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quo ad corrupti facilis vel laudantium quisquam velit enim odit iure praesentium laboriosam illum, sint minus iusto doloremque dicta quaerat maiores.</li>
    <li><h3>Shuffler</h3>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eum.</p></li>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eum.</p></li>
    </ul>
 
-   <!-- main section ends here  -->
-    <h2 id="connect with vivek">Connect with me</h2>
-    <p>Email:<a href="mailto:pantvivek000@gmail.com">pantvivek000@gmail.com</a> </p>
-    <p>github:github.com/vivekk078</p>
+   <!-- Main section ends here  -->
+   <div id="connect">
+    <h2 id="connect-with-vivek">Connect with me</h2>
+    <p>Email: <a href="mailto:pantvivek000@gmail.com">pantvivek000@gmail.com</a></p>
+    <p>Github: <a href="https://github.com/vivekk078" target="_blank">github.com/vivekk078</a></p>
     <a href="aboutus.html" target="_blank">About Us</a>
+   </div>
 </body>
 </html>
